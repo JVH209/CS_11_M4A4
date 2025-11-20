@@ -1,1 +1,8 @@
-
+print("What is the value of a?")
+value_a=input("")
+print("what is the value of b?")
+value_b=input("")
+int_value_a=int(value_a)
+int_value_b=int(value_b)
+solution=(int_value_a-int_value_b)+(int_value_a*int_value_b)
+print ("The solution is:",solution )
